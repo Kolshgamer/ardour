@@ -9,7 +9,9 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
-
+      with:
+        repository: 'Kolshgamer/ardour'
+        path: './ardour'
     - name: Install dependencies
       run: |
         sudo apt update
