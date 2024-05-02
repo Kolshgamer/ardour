@@ -21,7 +21,7 @@ jobs:
         libglibmm-2.4-dev libusb-1.0-0-dev libpangomm-1.4-dev libsamplerate0-dev \
         libcunit1-dev libcppunit-dev libudev-dev libserd-0-0 libcwiid-dev \
         libxwiimote-dev libwebsocketpp-dev libwebsockets-dev \
-        libsratom-0-0 liblrdf0 liblrdf0-dev libsuil-dev
+        libsratom-0-0 liblrdf0 liblrdf0-dev libsuil-dev libcurl4-gnutls-dev
 
     - name: Build Ardour
       run: |
